@@ -1,6 +1,6 @@
 module rep_uMUL_uni(
-    input clk,
-    input rstn,
+    input iClk,
+    input iRstN,
     input A,
     input B,
     output reg out
