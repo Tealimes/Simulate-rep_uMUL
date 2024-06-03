@@ -6,7 +6,7 @@ module rep_uMUL_uni(
     output wire out
 );
 
-    reg B_buf;
+    wire B_buf;
 
     always@(posedge iClk or negedge iRstN) begin
         if(~iRstN) begin
