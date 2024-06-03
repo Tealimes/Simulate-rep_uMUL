@@ -3,7 +3,7 @@ module rep_uMUL_uni(
     input wire iRstN,
     input wire A,
     input wire B,
-    output reg out
+    output wire out
 );
 
     reg B_buf;
