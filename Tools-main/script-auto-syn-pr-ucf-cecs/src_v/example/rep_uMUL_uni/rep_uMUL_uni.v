@@ -8,8 +8,8 @@ module rep_uMUL_uni(
 
     reg B_buf;
 
-    always@(posedge clk or negedge rstn) begin
-        if(~rstn) begin
+    always@(posedge iClk or negedge iRstN) begin
+        if(~iRstN) begin
             B_buf <= 0;
         end
         else begin
