@@ -1,8 +1,8 @@
 module rep_uMUL_uni(
-    input iClk,
-    input iRstN,
-    input A,
-    input B,
+    input wire iClk,
+    input wire iRstN,
+    input wire A,
+    input wire B,
     output reg out
 );
 
